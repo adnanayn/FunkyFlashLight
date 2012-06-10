@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED750B5157BB8F1003023C9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CED750B4157BB8F1003023C9 /* Default.png */; };
+		CED750B8157BB906003023C9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED750B7157BB905003023C9 /* Default@2x.png */; };
+		CEE97E7D157BB24700BA39B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE97E7C157BB24700BA39B2 /* UIKit.framework */; };
+		CEE97E7F157BB24700BA39B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE97E7E157BB24700BA39B2 /* Foundation.framework */; };
+		CEE97E81157BB24700BA39B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE97E80157BB24700BA39B2 /* CoreGraphics.framework */; };
+		CEE97E87157BB24700BA39B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE97E85157BB24700BA39B2 /* InfoPlist.strings */; };
+		CEE97E89157BB24700BA39B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE97E88157BB24700BA39B2 /* main.m */; };
+		CEE97E8D157BB24700BA39B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE97E8C157BB24700BA39B2 /* AppDelegate.m */; };
+		CEE97E90157BB24700BA39B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE97E8F157BB24700BA39B2 /* ViewController.m */; };
+		CEE97E93157BB24700BA39B2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE97E91157BB24700BA39B2 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CED750B4157BB8F1003023C9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CED750B7157BB905003023C9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CEE97E78157BB24700BA39B2 /* FunkyFlashLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunkyFlashLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE97E7C157BB24700BA39B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEE97E7E157BB24700BA39B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEE97E80157BB24700BA39B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEE97E84157BB24700BA39B2 /* FunkyFlashLight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunkyFlashLight-Info.plist"; sourceTree = "<group>"; };
+		CEE97E86157BB24700BA39B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE97E88157BB24700BA39B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE97E8A157BB24700BA39B2 /* FunkyFlashLight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunkyFlashLight-Prefix.pch"; sourceTree = "<group>"; };
+		CEE97E8B157BB24700BA39B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEE97E8C157BB24700BA39B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEE97E8E157BB24700BA39B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEE97E8F157BB24700BA39B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEE97E92157BB24700BA39B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE97E75157BB24700BA39B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE97E7D157BB24700BA39B2 /* UIKit.framework in Frameworks */,
+				CEE97E7F157BB24700BA39B2 /* Foundation.framework in Frameworks */,
+				CEE97E81157BB24700BA39B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE97E6D157BB24600BA39B2 = {
+			isa = PBXGroup;
+			children = (
+				CED750B7157BB905003023C9 /* Default@2x.png */,
+				CED750B4157BB8F1003023C9 /* Default.png */,
+				CEE97E82157BB24700BA39B2 /* FunkyFlashLight */,
+				CEE97E7B157BB24700BA39B2 /* Frameworks */,
+				CEE97E79157BB24700BA39B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE97E79157BB24700BA39B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE97E78157BB24700BA39B2 /* FunkyFlashLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE97E7B157BB24700BA39B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE97E7C157BB24700BA39B2 /* UIKit.framework */,
+				CEE97E7E157BB24700BA39B2 /* Foundation.framework */,
+				CEE97E80157BB24700BA39B2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE97E82157BB24700BA39B2 /* FunkyFlashLight */ = {
+			isa = PBXGroup;
+			children = (
+				CEE97E8B157BB24700BA39B2 /* AppDelegate.h */,
+				CEE97E8C157BB24700BA39B2 /* AppDelegate.m */,
+				CEE97E8E157BB24700BA39B2 /* ViewController.h */,
+				CEE97E8F157BB24700BA39B2 /* ViewController.m */,
+				CEE97E91157BB24700BA39B2 /* ViewController.xib */,
+				CEE97E83157BB24700BA39B2 /* Supporting Files */,
+			);
+			path = FunkyFlashLight;
+			sourceTree = "<group>";
+		};
+		CEE97E83157BB24700BA39B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE97E84157BB24700BA39B2 /* FunkyFlashLight-Info.plist */,
+				CEE97E85157BB24700BA39B2 /* InfoPlist.strings */,
+				CEE97E88157BB24700BA39B2 /* main.m */,
+				CEE97E8A157BB24700BA39B2 /* FunkyFlashLight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE97E77157BB24700BA39B2 /* FunkyFlashLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE97E96157BB24700BA39B2 /* Build configuration list for PBXNativeTarget "FunkyFlashLight" */;
+			buildPhases = (
+				CEE97E74157BB24700BA39B2 /* Sources */,
+				CEE97E75157BB24700BA39B2 /* Frameworks */,
+				CEE97E76157BB24700BA39B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunkyFlashLight;
+			productName = FunkyFlashLight;
+			productReference = CEE97E78157BB24700BA39B2 /* FunkyFlashLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE97E6F157BB24600BA39B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CEE97E72157BB24600BA39B2 /* Build configuration list for PBXProject "FunkyFlashLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEE97E6D157BB24600BA39B2;
+			productRefGroup = CEE97E79157BB24700BA39B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE97E77157BB24700BA39B2 /* FunkyFlashLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE97E76157BB24700BA39B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE97E87157BB24700BA39B2 /* InfoPlist.strings in Resources */,
+				CEE97E93157BB24700BA39B2 /* ViewController.xib in Resources */,
+				CED750B5157BB8F1003023C9 /* Default.png in Resources */,
+				CED750B8157BB906003023C9 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE97E74157BB24700BA39B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE97E89157BB24700BA39B2 /* main.m in Sources */,
+				CEE97E8D157BB24700BA39B2 /* AppDelegate.m in Sources */,
+				CEE97E90157BB24700BA39B2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEE97E85157BB24700BA39B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE97E86157BB24700BA39B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEE97E91157BB24700BA39B2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE97E92157BB24700BA39B2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE97E94157BB24700BA39B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEE97E95157BB24700BA39B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE97E97157BB24700BA39B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunkyFlashLight/FunkyFlashLight-Prefix.pch";
+				INFOPLIST_FILE = "FunkyFlashLight/FunkyFlashLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEE97E98157BB24700BA39B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunkyFlashLight/FunkyFlashLight-Prefix.pch";
+				INFOPLIST_FILE = "FunkyFlashLight/FunkyFlashLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE97E72157BB24600BA39B2 /* Build configuration list for PBXProject "FunkyFlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE97E94157BB24700BA39B2 /* Debug */,
+				CEE97E95157BB24700BA39B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE97E96157BB24700BA39B2 /* Build configuration list for PBXNativeTarget "FunkyFlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE97E97157BB24700BA39B2 /* Debug */,
+				CEE97E98157BB24700BA39B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE97E6F157BB24600BA39B2 /* Project object */;
+}
